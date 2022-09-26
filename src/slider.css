@@ -1,0 +1,64 @@
+@media screen and (max-width:480px) {
+
+.sliders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.abc{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    overflow: hidden;
+}
+.carousel-control-next,.carousel-control-prev{
+    display: none;
+}
+.carousel-indicators{
+    display:none
+}
+.voice{
+    background-color:rgb(19, 98, 16);
+    color: rgb(33, 255, 25);
+    padding: 10px;
+    border:5px solid rgb(33, 255, 25);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contest{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.det{
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.long{
+    font-size: 16px;
+    text-align: center;
+}
+.you{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+}
